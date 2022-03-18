@@ -1,0 +1,134 @@
+/* index.html*/
+
+
+#navbar {
+     background-color: #4e4e4e;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 0.75rem;
+     height: 70px;
+     color: #ffffff;
+}
+
+#navbar ul {
+     color: #ffffff;
+     list-style-type: none;
+     display: flex;
+     align-items: center;
+}
+
+#navbar ul li a {
+     display: inline-block;
+     margin-top: 1.25rem;
+     padding: 0.8rem 3rem;
+     border-radius: 7px;
+     letter-spacing: 0.5px;
+}
+
+#navbar h1 {
+     font-size:40px;
+     color: #ffffff;
+}
+
+/* home section */
+
+#home{
+     text-align: center;
+}
+
+#home #accounts #account {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: auto;
+}
+
+/* Favorites */
+
+
+#favProjects {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 1.75rem;
+     
+}
+
+#favProjects div {
+     color: white;
+     background-color: #666666;
+     border-radius: 5px;
+}
+
+/* aboutme.html */
+
+
+#aboutme {
+     background-color: #4e4e4e;
+}
+#aboutMe #aboutMe-text {
+     text-align: center;
+     padding: 2.50rem;
+     background-color: #414141;
+     color: #ffffff;
+}
+
+#technologies{
+     background-color: #676767;
+     padding: 2.60rem;
+     color: #ffffff;
+     text-align: center;
+}
+
+#technologies #languages{
+     background-color: #676767;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 2rem;
+     width: 100%;
+}
+
+#technologies a {
+     margin-right: 1rem;
+}
+
+
+/* projects.html */
+
+#projects {
+
+     justify-content: center;
+     align-items: center;
+     padding: 1.75rem;
+     background-color: #666666;
+}
+
+#projects {
+     color: #ffffff;
+     background-color: #4e4e4e;
+}
+
+#projects div {
+     background-color: #414141;
+     margin: 0.3rem;
+     border-radius: 9px;
+}
+
+#projects div h2 {
+     color: white;
+     text-align: left;
+     display: flex;
+
+}
+
+
+
+.github {
+     display: inline-block;
+     padding: 0.5rem;
+     border-radius: 5px;
+     text-align: right;
+}
+
