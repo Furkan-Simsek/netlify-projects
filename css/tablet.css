@@ -1,0 +1,20 @@
+#projects {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     flex-direction: column;
+     
+     text-align: center;
+     
+     background-color: rgba(91, 92, 102, 0.333);
+     
+     padding: 5rem;
+}
+
+
+#projects #project-list {
+     display: flex;
+     flex-direction: column;
+
+}
